@@ -44,7 +44,7 @@ export const ExpenseCard: React.FC<ExpenseCardProps> = ({
           styles.amount,
           { color: isIncome ? colors.success : colors.notification }
         ]}>
-          {isIncome ? '+' : '-'}${amount}
+          {isIncome ? '+' : '-'}RWF{amount}
         </Text>
         <Text style={styles.date}>{date}</Text>
       </View>
